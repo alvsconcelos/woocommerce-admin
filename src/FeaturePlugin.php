@@ -168,6 +168,7 @@ class FeaturePlugin {
 
 		// Initialize Plugins Installer.
 		PluginsInstaller::init();
+		PluginsHelper::init();
 
 		// Initialize API.
 		API\Init::instance();
